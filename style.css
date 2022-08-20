@@ -1,3 +1,44 @@
 body {
+	background: black;
+	margin: 0;
+	font-family: 'Arial';
+}
 
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: start;
+	padding: 40px 0;
+}
+
+.header__img {
+	width: 94px;
+}
+
+.header__menu {
+	display: inline-flex;
+	flex-direction: row;
+	margin-left: 100px;
+	color: white;
+}
+
+.header__menu-item {
+	list-style: none;
+	margin-right: 70px;
+}
+
+.header__menu-item:last-child {
+	margin-right: 0;
+}
+
+.first-screen {
+	background: url("bg.jpg");
+	background-size: cover;
+	height: 100vh;
 }
